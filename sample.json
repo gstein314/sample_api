@@ -1,24 +1,8 @@
-[
-    {
-      "dataset_id": "DS001",
-      "title": "Human Proteome Dataset",
-      "description": "A comprehensive dataset of human proteins.",
-      "species": "Homo sapiens",
-      "number_of_protein": 20500
-    },
-    {
-      "dataset_id": "DS002",
-      "title": "Mouse Proteome Dataset",
-      "description": "Proteomic data for mouse species.",
-      "species": "Mus musculus",
-      "number_of_protein": 19000
-    },
-    {
-      "dataset_id": "DS003",
-      "title": "Plant Proteome Dataset",
-      "description": "Proteomic data for Arabidopsis thaliana.",
-      "species": "Arabidopsis thaliana",
-      "number_of_protein": 27000
-    }
-  ]
+{
+    "title": "Human Proteome Dataset",
+    "dataset_uri": "https://example.com/datasets/DS001",
+    "description": "A comprehensive dataset of human proteins.",
+    "species": "Homo sapiens",
+    "number_of_protein": 20500
+}
   
