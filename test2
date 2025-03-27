@@ -1,0 +1,3 @@
+:host(togostanza-pagination-table) .clinical-significance {
+  color: red;
+}
