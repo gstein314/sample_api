@@ -1,4 +1,4 @@
-.clinical-significance::before {
+:host(togostanza-pagination-table) .clinical-significance::before {
   display: inline-block;
   border: 1px solid transparent;
   border-radius: 50%;
@@ -8,51 +8,59 @@
   text-align: center;
   width: 18px;
   height: 18px;
-  line-height: 18px;
+  line-height: 20px;
 }
-.clinical-significance[data-value=P]::before {
+
+:host(togostanza-pagination-table) .clinical-significance[data-value="P"]::before {
   content: "P";
   background-color: #ffeeed;
   border-color: #ff5a54;
   color: #ff5a54;
 }
-.clinical-significance[data-value=LP]::before {
+
+:host(togostanza-pagination-table) .clinical-significance[data-value="LP"]::before {
   content: "LP";
   background-color: #ffeeed;
   border-color: #ff5a54;
   color: #ff5a54;
 }
-.clinical-significance[data-value=US]::before {
+
+:host(togostanza-pagination-table) .clinical-significance[data-value="US"]::before {
   content: "US";
   background-color: #f9f9f3;
   border-color: #bbba7e;
   color: #bbba7e;
 }
-.clinical-significance[data-value=LB]::before {
+
+:host(togostanza-pagination-table) .clinical-significance[data-value="LB"]::before {
   content: "LB";
   background-color: #f3f9e6;
   border-color: #9dcf3a;
   color: #9dcf3a;
 }
-.clinical-significance[data-value=B]::before {
+
+:host(togostanza-pagination-table) .clinical-significance[data-value="B"]::before {
   content: "B";
   background-color: #e7fef2;
   border-color: #04af58;
   color: #04af58;
 }
-.clinical-significance[data-value=DR]::before {
+
+:host(togostanza-pagination-table) .clinical-significance[data-value="DR"]::before {
   content: "DR";
   background-color: #fff7cf;
   border-color: #9c8200;
   color: #9c8200;
 }
-.clinical-significance[data-value=O]::before {
+
+:host(togostanza-pagination-table) .clinical-significance[data-value="O"]::before {
   content: "O";
   background-color: #fff;
   border-color: #94928d;
   color: #94928d;
 }
-.clinical-significance[data-value=NP]::before {
+
+:host(togostanza-pagination-table) .clinical-significance[data-value="NP"]::before {
   content: "NP";
   background-color: #fff;
   border-color: #94928d;
