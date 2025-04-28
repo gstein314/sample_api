@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "label": "All",
+    "value": 318
+  },
+  {
+    "id": 2,
+    "label": "Cancer",
+    "value": 312,
+    "parent": 1
+  },
+  {
+    "id": 3,
+    "label": "Not provided",
+    "value": 282,
+    "parent": 2
+  },
+  {
+    "id": 4,
+    "label": "Somatic",
+    "value": 28,
+    "parent": 2
+  },
+  {
+    "id": 5,
+    "label": "Unknown",
+    "value": 2,
+    "parent": 2
+  },
+  {
+    "id": 6,
+    "label": "Rare/Intractable diseases",
+    "value": 6,
+    "parent": 1
+  },
+  {
+    "id": 7,
+    "label": "Somatic",
+    "value": 6,
+    "parent": 6
+  },
+  {
+    "id": 8,
+    "label": "Subcategory A",
+    "value": 3,
+    "parent": 4
+  },
+  {
+    "id": 9,
+    "label": "Subcategory B",
+    "value": 2,
+    "parent": 4
+  },
+  {
+    "id": 10,
+    "label": "Sub-subcategory A1",
+    "value": 1,
+    "parent": 8
+  },
+  {
+    "id": 11,
+    "label": "Sub-subcategory A2",
+    "value": 2,
+    "parent": 8
+  }
+]
