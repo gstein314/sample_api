@@ -1,88 +1,58 @@
 [
   { "id":  1,  "label": "All",                             "value": 1000 },
-
   { "id":  2,  "label": "Cancer",                          "value": 400,  "parent": 1 },
   { "id":  3,  "label": "Infectious diseases",            "value": 300,  "parent": 1 },
   { "id":  4,  "label": "Neurological disorders",         "value": 120,  "parent": 1 },
   { "id":  5,  "label": "Cardiovascular diseases",       "value": 140,  "parent": 1 },
   { "id":  6,  "label": "Metabolic disorders",            "value":  80,  "parent": 1 },
-
-  // ── Cancer branch ──
   { "id":  7,  "label": "Solid tumors",                   "value": 250,  "parent": 2 },
   { "id":  8,  "label": "Hematologic malignancies",       "value": 150,  "parent": 2 },
-
   { "id":  9,  "label": "Lung cancer",                    "value": 100,  "parent": 7 },
   { "id": 10,  "label": "Breast cancer",                  "value":  80,  "parent": 7 },
   { "id": 11,  "label": "Colorectal cancer",              "value":  70,  "parent": 7 },
-
   { "id": 12,  "label": "NSCLC",                          "value":  70,  "parent":  9 },
   { "id": 13,  "label": "SCLC",                           "value":  30,  "parent":  9 },
-
   { "id": 14,  "label": "Adenocarcinoma",                 "value":  40,  "parent": 12 },
   { "id": 15,  "label": "Squamous cell carcinoma",        "value":  30,  "parent": 12 },
-
   { "id": 16,  "label": "EGFR-mutant",                    "value":  20,  "parent": 14 },
   { "id": 17,  "label": "KRAS-mutant",                    "value":  20,  "parent": 14 },
-
   { "id": 18,  "label": "Leukemia",                       "value":  80,  "parent":  8 },
   { "id": 19,  "label": "Lymphoma",                       "value":  70,  "parent":  8 },
-
   { "id": 20,  "label": "AML",                            "value":  45,  "parent": 18 },
   { "id": 21,  "label": "ALL",                            "value":  35,  "parent": 18 },
-
   { "id": 22,  "label": "Hodgkin lymphoma",               "value":  30,  "parent": 19 },
   { "id": 23,  "label": "Non-Hodgkin lymphoma",           "value":  40,  "parent": 19 },
-
-  // ── Infectious diseases branch ──
   { "id": 24, "label": "Viral infections",                "value": 180, "parent": 3 },
   { "id": 25, "label": "Bacterial infections",            "value": 120, "parent": 3 },
-
   { "id": 26, "label": "Coronavirus",                     "value": 100, "parent": 24 },
   { "id": 27, "label": "Influenza",                       "value":  80, "parent": 24 },
-
   { "id": 28, "label": "SARS-CoV-2",                      "value":  70, "parent": 26 },
   { "id": 29, "label": "MERS-CoV",                        "value":  30, "parent": 26 },
-
   { "id": 30, "label": "Alpha variant",                   "value":  20, "parent": 28 },
   { "id": 31, "label": "Delta variant",                   "value":  20, "parent": 28 },
   { "id": 32, "label": "Omicron variant",                 "value":  30, "parent": 28 },
-
   { "id": 33, "label": "BA.1",                            "value":  15, "parent": 32 },
   { "id": 34, "label": "BA.2",                            "value":  15, "parent": 32 },
-
   { "id": 35, "label": "Tuberculosis",                    "value":  70, "parent": 25 },
   { "id": 36, "label": "Streptococcal infections",        "value":  50, "parent": 25 },
-
   { "id": 37, "label": "Pulmonary TB",                    "value":  50, "parent": 35 },
   { "id": 38, "label": "Extrapulmonary TB",               "value":  20, "parent": 35 },
-
-  // ── Neurological disorders branch ──
   { "id": 39, "label": "Neurodegenerative disorders",     "value":  80, "parent": 4 },
   { "id": 40, "label": "Stroke",                          "value":  40, "parent": 4 },
-
   { "id": 41, "label": "Alzheimer’s disease",             "value":  50, "parent": 39 },
   { "id": 42, "label": "Parkinson’s disease",             "value":  30, "parent": 39 },
-
   { "id": 43, "label": "Early-onset Parkinson’s",         "value":  10, "parent": 42 },
   { "id": 44, "label": "Idiopathic Parkinson’s",          "value":  20, "parent": 42 },
-
-  // ── Cardiovascular diseases branch ──
   { "id": 45, "label": "Coronary artery disease",         "value":  70, "parent": 5 },
   { "id": 46, "label": "Hypertension",                    "value":  70, "parent": 5 },
-
   { "id": 47, "label": "Stable angina",                   "value":  40, "parent": 45 },
   { "id": 48, "label": "Myocardial infarction",           "value":  30, "parent": 45 },
-
   { "id": 49, "label": "STEMI",                           "value":  15, "parent": 48 },
   { "id": 50, "label": "NSTEMI",                          "value":  15, "parent": 48 },
-
-  // ── Metabolic disorders branch ──
   { "id": 51, "label": "Diabetes mellitus",               "value":  50, "parent": 6 },
   { "id": 52, "label": "Obesity",                         "value":  30, "parent": 6 },
-
   { "id": 53, "label": "Type 1 diabetes",                 "value":  20, "parent": 51 },
   { "id": 54, "label": "Type 2 diabetes",                 "value":  30, "parent": 51 },
-
   { "id": 55, "label": "Insulin-resistant type",          "value":  15, "parent": 54 },
   { "id": 56, "label": "Insulin-deficient type",          "value":  15, "parent": 54 }
 ]
